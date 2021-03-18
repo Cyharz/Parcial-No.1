@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     // Activación de transición del menú principal y del menú móvil
-    $('header div article nav a, aside#menu-moviles nav a').bind('click',function(event){
+    $('header article nav a, aside#menu-moviles nav a').bind('click',function(event){
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -10,10 +10,12 @@ $(document).ready(function(){
         event.preventDefault();
     });
 
+
+
     // Funciones de Abrir y Cerrar el Menú Responsive
     $('a#abrir-menu').click(function(){
         $('aside#menu-moviles').animate({
-            right: 525
+            right: -150
         },500,'easeOutExpo');
 
         $('a#abrir-menu').hide();
@@ -24,7 +26,7 @@ $(document).ready(function(){
 
     $('a#cerrar-menu, aside#menu-moviles nav a').click(function(){
         $('aside#menu-moviles').animate({
-            right: 811
+            right: -290
         },1000,'easeOutElastic');
 
         $('a#abrir-menu').show();
@@ -32,6 +34,8 @@ $(document).ready(function(){
 
         event.preventDefault();
     });
+
+
 
     // Función Menú Sticky
     $(window).scroll(function(){
