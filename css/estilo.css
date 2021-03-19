@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, figure, img { margin: 0; }
 /* CSS Propio */
 
 /* Componente Botón WhatsApp flotante */
-aside#boton-wp { width: 45px; height: 45px; margin: 0; float: none; position: fixed; right: 15px; bottom: 15px; z-index: 99998; }
+aside#boton-wp { width: 45px; height: 45px; margin: 0; float: none; position: fixed; right: 15px; bottom: 15px; z-index: 99991; }
 aside#boton-wp a { width: 100%; height: auto; margin: 0; float: none; position: relative; display: block; background: #DB7682; border-radius: 50%; text-align: center; padding: 10px 0; transition: all 0.3s ease-in; }
 aside#boton-wp a i { font-size: 1.5em; line-height: 1em; color: #fff; transition: all 0.3s ease-in; }
 aside#boton-wp a:hover { background: #b8636d; transition: all 0.3s ease-in; }
@@ -25,7 +25,7 @@ aside#boton-wp a:hover i { color: rgb(214, 213, 213); transition: all 0.3s ease-
 
 
 /* Componente Menú Responsive */
-aside#menu-moviles { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; right: -290px; top: 0; z-index: 99999; background: #d196a6; }
+aside#menu-moviles { width: 290px; height: 100%; display: none; margin: 0; float: none; position: fixed; right: -290px; top: 0; z-index: 99991; background: #d196a6; }
 
 aside#menu-moviles a#abrir-menu { height: auto; margin: 0; float: none; position: absolute; top: 25px; left: -40px; display: block; text-decoration: none; color: #fff; font-weight: 600; font-size: 2em; line-height: 1em; transition: all 0.3s ease-in; }
 aside#menu-moviles a#abrir-menu:hover { color: #000; transition: all 0.3s ease-in }
